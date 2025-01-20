@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="D:\SYBCA15\WD\css\bootstrap.min.css">
+    <title>Home</title>
+    <style>
+        .h1 {
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            text-transform: uppercase;
+        }
+
+        .logo {
+            font-size: 32px;
+            color: black;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .n1 a {
+            position: relative;
+            font-size: 15px;
+            color: black;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+
+        .n1 a::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 0;
+            height: 2px;
+            transition: .3s;
+        }
+
+        .n1 a:hover::before {
+            width: 100%;
+        }
+
+        .q1 {
+            background-color: rgb(210, 213, 232);
+            height: auto;
+            border-radius: 10px 10px 10px 10px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            text-align: left;
+            text-indent: 15px;
+        }
+
+        .card1 {
+            border-radius: 20px 20px 20px 20px;
+            text-align: center;
+            box-shadow: 0 5px 10px rgba(136, 136, 209, 0.9);
+            margin-left: 0px;
+            margin-right: 0px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        .card {
+            border-radius: 20px 20px 20px 20px;
+            box-shadow: 0 5px 10px rgba(136, 136, 209, 0.9);
+            margin-left: 170px;
+            margin-bottom: 30px;
+        }
+
+
+        .email {
+            height: 60px;
+            width: 290px;
+            border: 0;
+            font-size: 20px;
+            border-radius: 20px 20px 20px 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 20px;
+        }
+
+        .emailimg {
+            margin-right: 140px;
+            position: absolute;
+            right: 25px;
+            margin-top: 14px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script src="D:\SYBCA15\WD\js\bootstrap.min.js"></script>
+    <header class="h1">
+        <a href="#" class="logo">thorient</a>
+        <nav class="n1">
+            <a href="#">Home</a>
+            <a href="#">Create Poll</a>
+            <a href="#">Explorer Polls</a>
+            <a href="#">Signature pad</a>
+            <a href="#">Disclaimer</a>
+        </nav>
+    </header>
+
+    <br>
+    <div class="container">
+        <h1 class="col-lg col-12 text-center fs-5 ">
+            Thorient is an
+            <a style="color:lightblue">Online Poll marker</a>
+            that allows you to create
+
+            polls on a wide range of topics
+        </h1>
+        <br>
+        <p class="col-lg  col-12 text-center">
+            Need feedback on a new office layout? Planning a surprise party for
+            your best friend? Curious who your friends think
+            will win the big game? Whatever
+
+            your reason, unleash your inner pollster with our free and
+            easy-to-use poll & survey
+            maker!
+        </p>
+        <div class="col-lg col-12 text-center ">
+            <button style="background-color:#3e54ac" class="text-white mt-3 rounded-5  px-4 py-3 border-0 text-uppercase fw-bold btn
+            btn-lg">Try online
+                Pollmaker</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="text-center">Benefits</h1>
+        <p style="text-align:center">of Our Free Online Poll Maker</p>
+    </div>
+    <div
+        style="background-color: rgb(248, 248, 250); margin-left: 30px;  margin-right: 30px;  border-radius: 90px 90px 90px 90px;">
+        <div class="row mx-5 my-5">
+            <div class="col-lg-4 col-12 ">
+                <div class="card1 align-items-center">
+                    <img src="./asset 0.png" alt="free to use" height="150px" width="100px" class="img-fluid pt-5 ms-5">
+                    <br>
+                    <br>
+                    <h4 style="text-align:center;">Free to use</h4>
+                    <p style="padding-bottom:30px">
+                        Thorient is a free online poll maker, so you can
+                        create as many polls
+                        as you want without
+                        having to pay a penny.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-4 col-12">
+                <div class="card1 align-items-center ">
+                    <img src="./asset 1.png" alt="live results" height="150px" width="100px"
+                        class=" img-fluid pt-5 ms-5">
+
+                    <br>
+                    <br>
+                    <h4 style="text-align:center">Live results</h4>
+                    <p style="padding-bottom:30px">
+                        Thorient is a free online poll maker, so you can
+                        create as many polls
+                        as you want without
+                        having to pay a penny.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card1  align-items-center">
+                    <img src="./asset 2.png" alt="wide range of topics" height="150px" width="100px"
+                        class="img-fluid pt-5 ms-5">
+                    <br>
+                    <br>
+                    <h4 style="text-align:center">Wide range of topics</h4>
+                    <p style="padding-bottom:30px">
+                        Thorient is a free online poll maker, so you can
+                        create as many polls
+                        as you want without
+                        having to pay a penny.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="text-center " style="font-size:22px;">
+            Ready to start making your voice heard (or have some fun with
+            friends)? Create your first poll today and see
+            what the world thinks!
+        </p>
+        <div class="text-center ">
+            <button style="background-color:#3e54ac"
+                class="text-white mt-3 px-4 py-3 border-0 text-uppercase btn  btn-lg">Try online
+                Pollmaker</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container align-items-center ">
+
+        <h2 class="fs-1 fw-bolder text-center">Polling Made Easy</h2>
+
+        <div class="row">
+            <div class=" col-lg-4  col-12 p-5 align-items-center  text-center">
+                <div class="mt-5 pt-4 pb-5 text-center" style="background: linear-gradient(135deg, #3e54ac 4.75%, #8b98cd 96%);  border-radius: 30px 30px 30px 30px;
+                 margin-left: 80px;  margin-right: 200px; height:150px; width:150px">
+                    <img src="asset 3.png" alt="Free to use img" height="100px" width="100px" class="img-fluid">
+                </div>
+                <div class="text-center mt-4">
+                    <h5 class="position-relative">
+                        The Future of Online
+                        Polling
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 p-5 align-items-center  text-center">
+                <div class="mt-5 pt-4 pb-5 text-center" style="background: linear-gradient(135deg, #3e54ac 4.75%, #8b98cd 96%); border-radius: 30px 30px 30px 30px;
+                                 margin-left: 80px;  margin-right: 200px; height:150px; width:150px">
+                    <img src="asset 4.png" alt="Free to use img" height="100px" width="100px" class="img-fluid">
+                </div>
+                <div class="text-center mt-4">
+                    <h5 class="position-relative">
+                        Get the Insights You Need,
+                        Fast
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-4  col-12 p-5  align-items-center text-center">
+                <div class="mt-5 pt-4 pb-5 text-center" style="background: linear-gradient(135deg, #3e54ac 4.75%, #8b98cd 96%);  border-radius: 30px 30px 30px 30px;
+                                 margin-left: 80px;  margin-right: 200px; height:150px; width:150px">
+                    <img src="asset 5.png" alt="Free to use img" height="100px" width="90px" class="img-fluid">
+                </div>
+                <div class="text-center mt-4">
+                    <h5 class="position-relative">
+                        The Best Way to Get
+                        Feedback from Your Customers
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="./asset 6.png" height="500px" width="750px">
+        </div>
+        <div class="col-lg-6 mt-5">
+            <h2 class="mt-5 text-center" style=" font-size: 42px; font-weight: 540;">
+                Showcasing Our
+                <br>
+                Website's Interactive
+                <br>
+                Polls
+            </h2>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid" style="background-color: rgb(245, 238, 238);">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center" style="font-size: 42px;   font-weight: bold; ">
+                    Voting and creating polls require no
+                    signup
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <img src="./asset 7.png" class="img-fluid" height="380" width="500">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <p style="margin-left:50px; margin-right:50px">
+                    Welcome to our user-friendly online polling platform!
+                    Join the
+                    vibrant community of
+
+                    engaged participants where you can voice your opinions
+                    and shape decisions
+
+                    effortlessly. No registration necessary-simply dive into
+                    the world of polling and
+
+                    express your views anonymously. Whether you're a
+                    seasoned poll creator or
+                    new to
+
+                    the scene, our platform offers seamless functionality
+                    and ensures your privacy
+
+                    every step of the way. Join us today and be part of the
+                    democratic process, hassle-
+
+                    free!
+                </p>
+                <p style="margin-left:50px; margin-right:50px">
+                    At our online polling website, we prioritize
+                    accessibility and inclusivity. Say goodbye
+
+                    to cumbersome sign-up processes and hello to instant
+                    engagement. With a
+
+                    commitment toanonymity, we empower users to share their
+                    perspectives openly,
+
+                    fostering a diverse and uninhibited exchange of ideas.
+                    Whether you're conducting
+
+                    market research, gathering feedback, or simply seeking
+                    public opinion, our intuitive
+
+                    platform streamlines the process,allowing you to focus
+                    on what matters most - the
+                    conversation.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <h1 class="text-center" style="font-size: 42px;   font-weight: bold; ">
+        Your Voice Matters, Your Identity Doesn't: Poll
+        <br>
+        Anonymously Now!
+    </h1>
+    <br>
+    <p class="text-justify" style="margin-left:120px;">
+        In today's digital age, expressing your opinions should be
+        effortless and secure. That's why we're proud to offer an online
+        polling platform where
+
+        your voice is heard loud and clear, without compromising your
+        identity. Our anonymous polling system ensures that you can
+        participate in
+
+        surveys, share your views, and contribute to important discussions
+        without any concerns about privacy. Whether you're engaging in
+        market
+
+        research, gathering feedback for a project, or simply curious about
+        public opinion, our platform empowers you to poll anonymously,
+        allowing your
+
+        authentic voice to shine through.
+    </p>
+    <p class="text-justify " style="margin-left:120px;">
+        Join our community today and start polling with confidence. With our
+        user-friendly interface and robust anonymity measures, you can
+        navigate
+
+        through various polls effortlessly while safeguarding your identity.
+        Embrace the freedom to express yourself openly and contribute to
+        meaningful
+
+        conversations without any reservations. At our platform, your voice
+        matters, and your anonymity is always respected. Poll anonymously
+        now and
+
+        make your opinions count!
+    </p>
+    <div style="background-color: rgb(245, 238, 238);">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center" style="font-size: 42px;   font-weight: bold; ">
+                    Voting and creating polls require no
+                    signup
+                </h1>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-7 mt-5">
+                <p class="text-justify; mt-5;" style="font-size: 16px; margin-left: 150px;">
+                    Ensuring the integrity of our polls is paramount, which
+                    is why we've implemented
+                    <br>
+                    robust measures to prevent duplicate votes. Our
+                    sophisticated system employs
+                    <br>
+                    advanced algorithms and techniques to detect and block
+                    any attempts at multiple
+                    <br>
+                    voting, safeguarding the fairness and accuracy of the
+                    polling process. With each
+                    <br>
+                    participant limited to a single vote, you can trust that
+                    the results truly reflect the
+                    <br>
+                    genuine opinions of our diverse community.
+                </p>
+                <p class="text-justify; mt-5;" style="font-size: 16px; margin-left: 150px;">
+                    Rest assured, your voice matters, and we're committed to
+                    upholding the highest
+                    <br>
+                    standards of security and transparency. By eliminating
+                    the possibility of duplicate
+                    <br>
+                    votes, we provide a level playing field for all
+                    participants, fostering trust and
+                    <br>
+                    confidence in the outcomes of our polls. Join us in
+                    shaping the conversation and
+                    <br>
+                    making your voice heard, knowing that your contribution
+                    is valued and protected
+                    <br>
+                    within our secure polling environment.
+                </p>
+            </div>
+            <div class="col-lg-5 mt-5">
+                <img src="./asset 8.png" class="img-fluid" height="380" width="500">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container mt-4 pb-2">
+        <h1 class="text-center" style="font-size: 42px;   font-weight: bold;">Frequently Asked Questions</h1>
+        <h6 class="q1"> How do I create a new voting poll?</h6>
+        <h6 class="q1"> How can I share my voting poll with others?</h6>
+        <h6 class="q1"> How can I view the results of my voting poll?</h6>
+        <h6 class="q1"> Why would I want to set my poll as public?</h6>
+        <h6 class="q1">
+            What is the difference between a public poll and a
+            private poll?
+        </h6>
+        <h6 class="q1"> Can I share public polls with others?</h6>
+        <h6 class="q1"> Can I see all public polls on the website?</h6>
+        <h6 class="q1">
+            What is the duration of a typical poll on this
+            website?
+        </h6>
+        <h6 class="q1">
+            What does it mean to have access to vote within the same
+            network?
+        </h6>
+    </div>
+    <br>
+    <h1 class="text-center" style="font-size: 42px;   font-weight: bold; ">A Blog of Adventure and Discovery</h1>
+    <br>
+    <br>
+    <div class="row row-cols-2 row-cols-lg-3">
+        <div class="col-lg-3 col-md-6 col ">
+            <div class="card" style="width:19rem; height:23rem">
+                <img src="./18.png" class="img-fluid rounded-8">
+                <div class="card-body">
+                    <p style="margin-left:5px; font-size:20px;">Thorient Polling Hub</p>
+                    <p class="text-center" style="font-weight:bold; font-style:italic; font-size:20px;">
+                        Thorient Online Polls
+                        <br>
+                        Maker: Revolutionizing
+                        <br>
+                        the Way We Collect
+                        <br>
+                        Opinions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col">
+            <div class="card" style="width:19rem; height:23rem">
+                <img src="./17.jpg" width="100%" class="img-fluid rounded-8">
+                <div class="card-body">
+                    <p style="margin-left:5px; font-size:20px;">Thorient Polling Hub</p>
+                    <p class="text-center" style="font-weight:bold; font-style:italic; font-size:20px;">
+                        Thorient Online Polls
+                        <br>
+                        Maker: Revolutionizing
+                        <br>
+                        the Way We Collect
+                        <br>
+                        Opinions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col">
+            <div class="card" style="width:19rem; height:23rem">
+                <img src="./16.png" width="100%" class="img-fluid rounded-8">
+                <div class="card-body">
+                    <p style="margin-left:5px; font-size:20px;">Thorient Polling Hub</p>
+                    <p class="text-center" style="font-weight:bold; font-style:italic; font-size:20px;">
+                        Thorient Online Polls
+                        <br>
+                        Maker: Revolutionizing
+                        <br>
+                        the Way We Collect
+                        <br>
+                        Opinions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row col-cols-2 row-cols-lg-3">
+        <div class="col-lg-3 col-md-6 col">
+            <div class="card" style="width:19rem; height:23rem">
+                <img src="./15.jpg" class="img-fluid rounded-8">
+                <div class="card-body">
+                    <p style="margin-left:5px; font-size:20px;">Thorient Polling Hub</p>
+                    <p class="text-center" style="font-weight:bold; font-style:italic; font-size:20px;">
+                        Thorient Online Polls
+                        <br>
+                        Maker: Revolutionizing
+                        <br>
+                        the Way We Collect
+                        <br>
+                        Opinions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+            <div class="card" style="width:19rem; height:23rem">
+                <img src="./14.png" width="100%" class="img-fluid rounded-8">
+                <div class="card-body">
+                    <p style="margin-left:5px; font-size:20px;">Thorient Polling Hub</p>
+                    <p class="text-center" style="font-weight:bold; font-style:italic; font-size:20px;">
+                        Thorient Online Polls
+                        <br>
+                        Maker: Revolutionizing
+                        <br>
+                        the Way We Collect
+                        <br>
+                        Opinions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg-3 col-md-6 ">
+            <div class="card" style="width:19rem; height:23rem">
+                <img src="./13.png" width="100%" class="img-fluid rounded-8">
+                <div class="card-body">
+                    <p style="margin-left:5px; font-size:20px;">Thorient Polling Hub</p>
+                    <p class="text-center" style="font-weight:bold; font-style:italic; font-size:20px;">
+                        Thorient Online Polls
+                        <br>
+                        Maker: Revolutionizing
+                        <br>
+                        the Way We Collect
+                        <br>
+                        Opinions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="mt-5" style="background-color:rgba(211, 211, 218, 0.9)">
+            <div class="row pt-5">
+                <div class="col-lg-4 col-sm-6 p-3">
+                    <h2>THORIENT</h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 p-3">
+                    <h3>Company</h3>
+                    <h6>About us</h6>
+                    <h6>Contact us</h6>
+                    <h6>Privacy policy</h6>
+                    <h6>Terms & conditions</h6>
+                    <h6>Disclaimer</h6>
+                </div>
+                <div class="col-lg-4 col-sm-6 p-3">
+                    <h3>Subscribe</h3>
+                    <input type="email" placeholder=" Enter your Email address" class="email">
+                    <img src="./asset 9.png" class="emailimg">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
